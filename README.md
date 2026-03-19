@@ -3,8 +3,8 @@
 
 | Field | Details |
 |-------|---------|
-| **Student Name** | [Your Name] |
-| **Registration Number** | [Your Reg No] |
+| **Student Name** | Dhruv Sanjay Chaudhari |
+| **Registration Number** | 24BAI10807 |
 | **Course** | Open Source Software (OSS NGMC) |
 | **Software Audited** | Linux Kernel |
 | **License** | GNU General Public License v2 (GPL v2) |
@@ -47,12 +47,12 @@ This repository contains the shell scripts for the Open Source Audit capstone pr
 
 ---
 
-## How to Run the Scripts on Linux (Ubuntu/Debian)
+## How to Run the Scripts on Linux Ubuntu
 
 ### Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/[your-username]/oss-audit-[rollnumber].git
-cd oss-audit-[rollnumber]
+git clone https://github.com/dhruv/oss-audit-24BAI10807.git
+cd oss-audit-24BAI10807
 ```
 
 ### Step 2 — Make Scripts Executable
@@ -105,7 +105,7 @@ Arguments: `$1` = log file path (optional), `$2` = keyword (optional, default: "
 ```bash
 bash scripts/script5_manifesto_generator.sh
 ```
-Interactive. You will be prompted for 3 answers. Output is saved to `manifesto_[username].txt` in the current directory.
+Interactive. You will be prompted for 3 answers. Output is saved to `manifesto_dhruv.txt` in the current directory.
 
 ---
 
@@ -125,7 +125,7 @@ No external or non-standard packages are required.
 ## Repository Structure
 
 ```
-oss-audit-[rollnumber]/
+oss-audit-24BAI10807/
 ├── README.md
 └── scripts/
     ├── script1_system_identity.sh
